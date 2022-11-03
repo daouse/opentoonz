@@ -12,9 +12,6 @@ jobs:
           - compiler: gcc
             cc: gcc
             cxx: g++
-          - compiler: clang
-            cc: clang
-            cxx: clang++
     steps:
     - uses: actions/checkout@v2
     - name: Install libraries
